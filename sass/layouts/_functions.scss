@@ -1,16 +1,16 @@
 .functions {
   padding-top: 0;
 }
-.functions-list {
+.functions__list {
   display: flex;
   gap: 30px;
 
   flex-basis: 270px;
 }
-.functions-item {
+.functions__item {
   position: relative;
 }
-.functions-description {
+.functions__description {
   position: absolute;
   display: flex;
   font-weight: 700;

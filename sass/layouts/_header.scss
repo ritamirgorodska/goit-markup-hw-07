@@ -7,22 +7,17 @@
   left: 0;
   width: 100%;
   z-index: 5;
-  .container {
+  &__container {
     display: flex;
     align-items: center;
   }
 }
-.logo-header {
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
 
-.header-nav {
+.navigation {
   display: flex;
 }
 
-.header-item .header-link {
+.navigation__item .navigation__link {
   position: relative;
   font-weight: 500;
   font-size: 14px;
@@ -47,15 +42,15 @@
   }
 }
 
-.header-list {
+.navigation__list {
   display: flex;
   gap: 50px;
   align-items: center;
-  & .header-link.current {
+  & .navigation__link.current {
     color: var(--accent-color);
   }
 }
-.header-link {
+.navigation__link {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -67,9 +62,4 @@
   &.current::after {
     opacity: 1;
   }
-}
-.header-icon {
-  fill: currentColor;
-
-  margin-right: 10px;
 }

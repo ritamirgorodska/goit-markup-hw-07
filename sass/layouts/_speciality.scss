@@ -1,8 +1,8 @@
-.speciality-list {
+.speciality__list {
   display: flex;
   gap: 30px;
 }
-.speciality-icon-border {
+.speciality__icon-border {
   width: 270px;
   height: 120px;
   background: var(--third-background-color);
@@ -13,7 +13,7 @@
   justify-content: center;
 }
 
-.speciality-subtitle {
+.speciality__subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -22,7 +22,7 @@
   color: var(--main-title-color);
   margin-bottom: 10px;
 }
-.speciality-text {
+.speciality__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

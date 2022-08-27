@@ -5,12 +5,17 @@
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-.logo-web {
+.logo__web {
   color: var(--accent-color);
 }
-.logo-studio {
+.logo__studio--dark {
   color: var(--logo-header-color);
 }
-.logo-footer-studio {
+.logo__header {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.logo__studio--light {
   color: var(--second-title-color);
 }
