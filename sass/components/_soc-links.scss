@@ -1,0 +1,52 @@
+// Team social links
+.team-soc {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.team-soc-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color var(--transition-duration) var(--cubic);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+.team-soc-icon {
+  fill: var(--icon-color);
+  transition: fill var(--transition-duration) var(--cubic);
+  .team-soc-link:hover &,
+  .team-soc-link:focus & {
+    fill: var(--second-title-color);
+  }
+}
+// Footer social links
+.footer-soc {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-soc-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  transition: background-color var(--transition-duration) var(--cubic);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+.footer-soc-icon {
+  fill: var(--second-title-color);
+}
